@@ -53,6 +53,16 @@ int main()
         //cout << fahr << "\t" << celsius << endl;
     //}
     //zad 7
+    //double liczba;
+
+    //for (int i = 1; i <= 10; i++) {
+        //cout << "podaj liczbe rzeczywista: " << endl;
+        //cin >> liczba;
+        //if (liczba > 0) {
+            //cout << "liczba dodatnia: " << liczba << endl;
+        //}
+    //}
+
     
      
     //zad 8
@@ -61,9 +71,7 @@ int main()
         //cout << i << endl;
     //}
 
-    //zad9
-    int n; 
-    cout << "
+    
 
     
     
