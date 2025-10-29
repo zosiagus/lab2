@@ -1,11 +1,13 @@
 // ConsoleApplication2.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-//zad 1
+
 #include <iostream>
 using namespace std;
 
 int main()
 {
+    //zad 1
+    
     //for (int i = 10; i >= 0; i--) {
         //cout << i << endl;
     //}
@@ -70,6 +72,41 @@ int main()
     //for (int i = 0; i <=100; i = i +2) {
         //cout << i << endl;
     //}
+
+    //zad9
+    
+    //int n;
+
+    //cout << "podaj liczbe, ktora bedzie dzielnikiem: ";
+    //cin >> n;
+
+    //cout << "liczby podzielne przez " << n << " to: " << endl;
+
+    //for (int i = 0; i <= 100; i++) {
+        //if (i % n == 0) {
+            //cout << i << endl;
+        //}
+    //}
+
+    //zad 10
+    //int n;
+     //cout << "podaj liczbe, ktora bedzie dzielnikiem: ";
+    //cin >> n;
+    //int counter = 0;
+
+    //cout << "ilosc liczb podzielnych przez " << n << " to: ";
+
+    //for (int i = 0; i <= 100; i++) {
+        //if (i % n == 0) {
+            //counter++;
+        //}
+    //}
+    //cout << counter << endl;
+
+
+
+
+       
 
     
 
