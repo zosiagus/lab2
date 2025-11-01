@@ -2,6 +2,8 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 using namespace std;
 
 int main()
@@ -136,17 +138,17 @@ for (int i = min; i <= max; i++) {
 }
 */
 
-/* zad 12
+ /*zad 12
 
 double liczba, suma, srednia;
    int n;
    suma=0;
 
    cout << "podaj ilosc liczb: ";
-   cin >> n>>endl;
+   cin >> n;
 
    for (int i=1; i<= n; i++) {
-       cout << "podaj" <<i<<" liczb"<<endl;
+       cout << "podaj " <<i<<" liczbe: "<<endl;
        cin >>liczba;
        suma=suma + liczba;
    }
@@ -161,8 +163,9 @@ for (int i = 100; i >= 0; i--) {
 */
 
 /* zad 14
- 
- int a,b,c;
+ */
+/*
+ int a, b, c;
 
     cout<<"podaj 3 liczby: "<<endl;
     cin>>a;
@@ -178,20 +181,48 @@ for (int i = 100; i >= 0; i--) {
       else  {
           cout<<"najmniejsza liczba to: "<<c;
       }
+      */
+
+
+
+
+
+/*zad15
+int n, m, losowa;
+
+cout << "Ile liczb chcesz losowac? ";
+cin >> n;
+
+cout << "Podaj granice przedzialu od 0 do...: ";
+cin >> m;
+
+for (int i = 1; i <= n; i++) {
+    cout << "Losujemy liczbe nr: " << i << ": " << endl;
+    losowa = rand() % (m + 1);
+    cout << losowa;
+}
 */
 
 
+/*zad16
 
 
+int numerek, ile, x;
+cout << "Podaj twoj szczesliwy numerek z przedzialu od 1 do 10: ";
+cin >> numerek;
+
+ile = 0;
+for (int i = 1; i <= 10; i++) {
+  
+    x = rand() % 10 + 1;
+    cout << "Losuje " << i << " raz i wyszlo " << x << endl;
 
     
+    if (x == numerek)  ile++;
+}
 
-
-
-
-
-
-
+cout << "Twoj numerek byl " << ile << " razy";
+*/
 
        
 
