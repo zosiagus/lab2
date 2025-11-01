@@ -6,102 +6,167 @@ using namespace std;
 
 int main()
 {
-    //zad 1
+    /*zad 1
+
+    for (int i = 10; i >= 0; i--) {
+        cout << i << endl;
+    }
+    */
+
+
+
+    /*zad2, 3
+   int fahr, celsius;
+   int start, limit, krok;
+
+   start = 0;
+   limit = 200;
+   krok = 20;
+
+   for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
+       float celsius = (5.0 / 9.0) * (fahr - 32.0);
+       cout << fahr << "\t" << celsius << endl;
+   }
+   */
+
+   /*zad5
+   int fahr, celsius;
+   int start, limit, krok;
+
+   start = 0;
+   limit = 200;
+  krok = 20;
+
+   for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
+       float celsius = (5 / 9) * (fahr - 32.0);
+       cout << fahr << "\t" << celsius << endl;
+   }
+   */
+
+   /*zad 6
+   int fahr, celsius;
+   int start, limit, krok;
+   start = 0;
+
+   cout << "wartosc koncowa: ";
+   cin >> limit;
+   cout << "krok: ";
+   cin >> krok;
+
+   for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
+    float celsius = (5.0 / 9.0) * (fahr - 32.0);
+       cout << fahr << "\t" << celsius << endl;
+   }
+   */
+   /*zad 7
+   double liczba;
+
+   for (int i = 1; i <= 10; i++) {
+       cout << "podaj liczbe rzeczywista: " << endl;
+       cin >> liczba;
+       if (liczba > 0) {
+           cout << "liczba dodatnia: " << liczba << endl;
+       }
+
+   }
+   */
+
+
+
+
+   /*zad 8
+
+   for (int i = 0; i <=100; i = i +2) {
+       cout << i << endl;
+   }
+   */
+
+   /*zad9
+
+   int n;
+
+   cout << "podaj liczbe, ktora bedzie dzielnikiem: ";
+   cin >> n;
+
+   cout << "liczby podzielne przez " << n << " to: " << endl;
+
+   for (int i = 0; i <= 100; i++) {
+       if (i % n == 0) {
+           cout << i << endl;
+       }
+   }
+   */
+
+   /*zad 10
+   int n;
+    cout << "podaj liczbe, ktora bedzie dzielnikiem: ";
+   cin >> n;
+   int counter = 0;
+
+   cout << "ilosc liczb podzielnych przez " << n << " to: ";
+
+   for (int i = 0; i <= 100; i++) {
+       if (i % n == 0) {
+           counter++;
+       }
+   }
+   cout << counter << endl;
+   
+/* zad11
+
+int a, b, min, max;
     
-    //for (int i = 10; i >= 0; i--) {
-        //cout << i << endl;
-    //}
+cout << "podaj dwie liczby calkowite: " << endl;
+cin >> a;
+cin >> b;
+
+if (a > b) {
+        max = a;
+        min = b;
+    }
+    else {
+        max = b;
+        min = a;
+    }
+for (int i = min; i <= max; i++) {
+    if (i % 3 == 0) {
+        cout << i << endl;
+    }
+}
+*/
+
+/* zad 12
+
+double liczba, suma, srednia;
+   int n;
+   suma=0;
+
+   cout << "podaj ilosc liczb: ";
+   cin >> n>>endl;
+
+   for (int i=1; i<= n; i++) {
+       cout << "podaj" <<i<<" liczb"<<endl;
+       cin >>liczba;
+       suma=suma + liczba;
+   }
+   srednia = suma/n;
+   cout << srednia;
+   */
+
+/*zad 13
+for (int i = 100; i >= 0; i--) {
+    cout << i << endl;
+}
+*/
 
 
 
-    //zad2,3
-    //int fahr, celsius;
-    //int start, limit, krok;
-
-    //start = 0;
-    //limit = 200;
-    //krok = 20;
-
-    //for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
-        //float celsius = (5.0 / 9.0) * (fahr - 32.0);
-        //cout << fahr << "\t" << celsius << endl;
-    //}
-
-    //zad5
-    //int fahr, celsius;
-    //int start, limit, krok;
-
-    //start = 0;
-    //limit = 200;
-   // krok = 20;
-
-    //for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
-        //float celsius = (5 / 9) * (fahr - 32.0);
-        //cout << fahr << "\t" << celsius << endl;
-    //}
-
-    //zad 6
-    //int fahr, celsius;
-    //int start, limit, krok;
-    //start = 0;
-
-    //cout << "wartosc koncowa: ";
-    //cin >> limit;
-    //cout << "krok: ";
-    //cin >> krok;
-
-   // for (fahr = 0.0; fahr <= limit; fahr = fahr + krok) {
-    // float celsius = (5.0 / 9.0) * (fahr - 32.0);
-        //cout << fahr << "\t" << celsius << endl;
-    //}
-    //zad 7
-    //double liczba;
-
-    //for (int i = 1; i <= 10; i++) {
-        //cout << "podaj liczbe rzeczywista: " << endl;
-        //cin >> liczba;
-        //if (liczba > 0) {
-            //cout << "liczba dodatnia: " << liczba << endl;
-        //}
-    //}
 
     
-     
-    //zad 8
-    
-    //for (int i = 0; i <=100; i = i +2) {
-        //cout << i << endl;
-    //}
 
-    //zad9
-    
-    //int n;
 
-    //cout << "podaj liczbe, ktora bedzie dzielnikiem: ";
-    //cin >> n;
 
-    //cout << "liczby podzielne przez " << n << " to: " << endl;
 
-    //for (int i = 0; i <= 100; i++) {
-        //if (i % n == 0) {
-            //cout << i << endl;
-        //}
-    //}
-
-    //zad 10
-    //int n;
-     //cout << "podaj liczbe, ktora bedzie dzielnikiem: ";
-    //cin >> n;
-    //int counter = 0;
-
-    //cout << "ilosc liczb podzielnych przez " << n << " to: ";
-
-    //for (int i = 0; i <= 100; i++) {
-        //if (i % n == 0) {
-            //counter++;
-        //}
-    //}
-    //cout << counter << endl;
 
 
 
