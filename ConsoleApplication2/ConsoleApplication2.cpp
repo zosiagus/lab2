@@ -111,8 +111,9 @@ int main()
        }
    }
    cout << counter << endl;
+   */
    
-/* zad11
+ /*zad11
 
 int a, b, min, max;
     
@@ -158,6 +159,27 @@ for (int i = 100; i >= 0; i--) {
     cout << i << endl;
 }
 */
+
+/* zad 14
+ 
+ int a,b,c;
+
+    cout<<"podaj 3 liczby: "<<endl;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+
+    if (a<b && a<c) {
+        cout<<"najmniejsza liczba to: "<<a;
+        }
+        else if (b<a && b<c) {
+          cout<<"najmniejsza liczba to: "<<b;
+      }
+      else  {
+          cout<<"najmniejsza liczba to: "<<c;
+      }
+*/
+
 
 
 
